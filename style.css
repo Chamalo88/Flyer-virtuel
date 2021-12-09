@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Mono", monospace ;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  :root {
+   
+    --couleur2: rgb(0, 0, 0);
+    
+  }
+  body {
+    min-height: 360px;
+    min-width: auto;
+  }
+
+  section {
+    padding-top: 5px;
+    min-height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  #home,div {
+    margin-top: 5px;
+    background-color: var(--couleur2);
+    background-size: cover;
+    min-height: 360px;
+    min-width: 640px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+.one{
+ min-height: auto;
+ min-width: 640px;
+display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ text-align: center;
+
+}
+
+
+img.clign{
+    animation: clignote 4s linear infinite;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+img.clign2{
+    animation: clignote 2s linear infinite;
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+img.principal{
+border: dotted 3px red;
+
+}
